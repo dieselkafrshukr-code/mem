@@ -256,7 +256,7 @@ export default function App() {
                         <color attach="background" args={['#050505']} />
                         <ambientLight intensity={1} />
                         <Suspense fallback={null}>
-                            <Experience3D imagePath="./me.jpeg" />
+                            <Experience3D imagePath="./me.png" />
                             <Environment preset="city" />
                         </Suspense>
                         <OrbitControls enableZoom={false} enablePan={false} />
